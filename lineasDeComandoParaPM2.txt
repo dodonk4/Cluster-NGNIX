@@ -1,0 +1,4 @@
+//EN BASH
+pm2 start cluster.js --name="ServerFork" -- 8081; // PARA FORK;
+pm2 start cluster.js -i max --name="ServerCluster" -- 8080 // PARA CLUSTER
+
